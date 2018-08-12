@@ -1,0 +1,24 @@
+{
+  "name": "react-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple ReacJs + Webpack boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoshidf/react-webpack-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "javascript"
+  ],
+  "author": "Francisco Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoshidf/react-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/yoshidf/react-webpack-boilerplate#readme"
+}
