@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/yoshidf/react-webpack-boilerplate/issues"
   },
-  "homepage": "https://github.com/yoshidf/react-webpack-boilerplate#readme"
+  "homepage": "https://github.com/yoshidf/react-webpack-boilerplate#readme",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
 }
