@@ -16,6 +16,8 @@ Clone this project, install all dependencies running `npm install`, and run `npm
 
 To create a production build, run `npm run build`. This will create a ***dist*** folder containing the production files.
 
+> 💡  Tip: this project use standardJS for code style. if you want follow this style guide and are using VSCode editor (or other editor which have a eslint extension), you can install eslint extension for lint your code in real time or you also can run `./node_modules/.bin/eslint path/of/your/file.js`  using local eslint.
+
 ## Technologies
 
 - [React 16](https://reactjs.org/)
