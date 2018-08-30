@@ -1,13 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
+import PropTypes from 'prop-types'
 import logo from './logo.svg'
 
-export default styled(({className}) => {
+const MyComponent = styled(({className, text}) => {
   return (
     <div className={className}>
       <header className='header'>
         <img src={logo} className='logo' alt='logo' />
-        <h1 className='title'>Webpack4 + React</h1>
+        <h1 className='title'>{text}</h1>
       </header>
     </div>
   )
@@ -35,3 +36,14 @@ export default styled(({className}) => {
     to { transform: rotate(360deg); }
   }
 `
+
+MyComponent.propTypes = {
+  className: PropTypes.string,
+  text: PropTypes.string.isRequired
+}
+
+MyComponent.defaultProps = {
+  text: 'Hello React!'
+}
+
+export default MyComponent

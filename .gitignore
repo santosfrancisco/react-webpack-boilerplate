@@ -1,5 +1,7 @@
 # dist folder
 dist/
+# docz folder
+.docz
 
 # Logs
 logs
