@@ -12,14 +12,18 @@ This is a simple boilerplate to start a React application using Styled-component
 
 ## How to
 
-Clone this project, install all dependencies running `npm install`, and run `npm start` to start a dev server on port :8080.
+Clone this project, install all dependencies running `yarn install`, and run `yarn start` to start a dev server on port :8080.
 
-To create a production build, run `npm run build`. This will create a ***dist*** folder containing the production files.
+To create a production build, run `yarn run build`. This will create a ***dist*** folder containing the production files.
 
-> 💡  Tip: this project use standardJS for code style. if you want follow this style guide and are using VSCode editor (or other editor which have a eslint extension), you can install eslint extension for lint your code in real time or you also can run `./node_modules/.bin/eslint path/of/your/file.js`  using local eslint.
+To view storybook, run `yarn run storybook`. Storybook wiil run on port :6006
+
+> 💡  Tip: this project use standardJS for code style. if you want follow this style guide and are using VSCode editor (or other editor which have a eslint extension), you can install eslint extension for lint your code in real time or you also can run `yarn run eslint path/of/your/file.js`  using local eslint.
 
 ## Technologies
 
-- [React 16](https://reactjs.org/)
-- [Webpack 4](https://webpack.js.org/)
-- [Styled-components 3](https://www.styled-components.com)
+- [React](https://reactjs.org/)
+- [Webpack](https://webpack.js.org/)
+- [Babel](https://babeljs.io/)
+- [Styled-components](https://www.styled-components.com)
+- [Storybook](https://storybook.js.org/)
